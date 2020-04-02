@@ -18,7 +18,7 @@ class Restaurant():
 
 
 my_restaurant = Restaurant('ji', 'chicken')
-print(str(my_restaurant.number_served) + "people" + ".")
+print(str(my_restaurant.number_served) + "people" + "?")
 my_restaurant.incremet_login_attempts(2)
 my_restaurant.incremet_login_attempts(3)
 print(my_restaurant.number_served)
